@@ -1,5 +1,15 @@
 name: PluginTemplate
 version: '0.1.0'
-main: uk.co.tmdavies.pluginTemplate.PluginTemplate
+main: uk.co.tmdavies.plugintemplate.PluginTemplate
 api-version: '1.21'
 authors: [ Carbonate ]
+commands:
+  plugintemplate:
+    description: Main Command
+permissions:
+  plugintemplate.use:
+    default: op
+  plugintemplate.admin:
+    default: op
+    children:
+      plugintemplate.use
