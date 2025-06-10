@@ -1,0 +1,5 @@
+name: PluginTemplate
+version: '0.1.0'
+main: uk.co.tmdavies.pluginTemplate.PluginTemplate
+api-version: '1.21'
+authors: [ Carbonate ]
