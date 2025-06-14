@@ -17,7 +17,7 @@ public class MainCommand implements ShadowCommand {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String string, String[] args) {
         if (!sender.hasPermission(Permissions.MAIN_COMMAND.getPermission())) {
-            sender.hasPermission(Messages.NO_PERMISSION.getMessage(Permissions.MAIN_COMMAND.getPermission()));
+            sender.sendMessage(Messages.NO_PERMISSION.getMessage(Permissions.MAIN_COMMAND.getPermission()));
 
             return true;
         }
