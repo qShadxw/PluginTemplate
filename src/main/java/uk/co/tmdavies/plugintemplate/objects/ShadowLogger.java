@@ -49,7 +49,6 @@ public class ShadowLogger {
         log(Reason.GENERIC, "");
         log(Reason.GENERIC, "&a   ============  &7%s V%s  &a============", pluginName, pluginVersion);
         log(Reason.GENERIC, "                &aCreated by: %s", authors.toString().replace("[", "").replace("]", ""));
-        log(Reason.GENERIC, "    &8&oExclusively licenced to &cCarbonate");
         log(Reason.GENERIC, "&a   =============================================");
         log(Reason.GENERIC, "");
     }
